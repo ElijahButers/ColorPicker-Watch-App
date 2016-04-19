@@ -28,7 +28,16 @@
         <!--ColorPalette-->
         <scene sceneID="KNa-Oc-blO">
             <objects>
-                <controller identifier="ColorPalette" id="28K-yf-jT2"/>
+                <controller identifier="ColorPalette" id="28K-yf-jT2">
+                    <items>
+                        <group width="1" height="1" alignment="left" id="TlR-3G-IaS">
+                            <items>
+                                <label alignment="left" verticalAlignment="bottom" text="Label" id="5ux-xG-XyC"/>
+                            </items>
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </group>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="610" y="393"/>
         </scene>
