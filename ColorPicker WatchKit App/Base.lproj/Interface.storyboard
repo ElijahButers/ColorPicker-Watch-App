@@ -28,7 +28,7 @@
         <!--ColorPalette-->
         <scene sceneID="KNa-Oc-blO">
             <objects>
-                <controller identifier="ColorPalette" id="28K-yf-jT2">
+                <controller identifier="ColorPalette" id="28K-yf-jT2" customClass="ColorController" customModule="ColorPicker_WatchKit_Extension">
                     <items>
                         <group width="1" height="1" alignment="left" id="TlR-3G-IaS">
                             <items>
