@@ -12,6 +12,11 @@ import Foundation
 
 class ColorController: WKInterfaceController {
 
+    @IBOutlet var backgroundGroup: WKInterfaceGroup!
+    @IBOutlet var label: WKInterfaceLabel!
+    
+    var activeColor: UIColor?
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         

@@ -37,6 +37,10 @@
                             <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="backgroundGroup" destination="TlR-3G-IaS" id="vwF-jw-6cH"/>
+                        <outlet property="label" destination="5ux-xG-XyC" id="Ppr-1O-XU3"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="610" y="393"/>
