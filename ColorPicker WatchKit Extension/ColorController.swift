@@ -21,6 +21,11 @@ class ColorController: WKInterfaceController {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        if let color = context as? UIColor {
+            activeColor = color
+            backgroundGroup.setBackgroundColor(color)
+            label.setText("#" + color.hexString)
+        }
     }
 
     override func willActivate() {
