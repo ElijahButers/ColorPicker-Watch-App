@@ -27,6 +27,14 @@ class ColorController: WKInterfaceController {
             label.setText("#" + color.hexString)
         }
     }
+    
+    override func didAppear() {
+        super.didAppear()
+        
+        if let color = activeColor {
+            ColorManager.defaultManager.selectedColor = color
+        }
+    }
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
