@@ -23,6 +23,8 @@
 		29EBDB991B3F5C9A00085149 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBDB981B3F5C9A00085149 /* ExtensionDelegate.swift */; };
 		29EBDB9B1B3F5C9A00085149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EBDB9A1B3F5C9A00085149 /* Assets.xcassets */; };
 		29EBDBAB1B3F5EA500085149 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EBDBAA1B3F5EA500085149 /* ColorManager.swift */; };
+		E2EBF6B41CCA36BD004D673E /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBF6B31CCA36BD004D673E /* DetailController.swift */; };
+		E2F683421CC60F950073F2D9 /* ColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F683411CC60F950073F2D9 /* ColorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		29EBDB9A1B3F5C9A00085149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29EBDB9C1B3F5C9A00085149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EBDBAA1B3F5EA500085149 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		E2EBF6B31CCA36BD004D673E /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		E2F683411CC60F950073F2D9 /* ColorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 			children = (
 				29EBDB961B3F5C9A00085149 /* InterfaceController.swift */,
 				29EBDB981B3F5C9A00085149 /* ExtensionDelegate.swift */,
+				E2F683411CC60F950073F2D9 /* ColorController.swift */,
+				E2EBF6B31CCA36BD004D673E /* DetailController.swift */,
 				29EBDB9A1B3F5C9A00085149 /* Assets.xcassets */,
 				29EBDB9C1B3F5C9A00085149 /* Info.plist */,
 			);
@@ -319,6 +325,8 @@
 				29EBDBAB1B3F5EA500085149 /* ColorManager.swift in Sources */,
 				29EBDB991B3F5C9A00085149 /* ExtensionDelegate.swift in Sources */,
 				29EBDB971B3F5C9A00085149 /* InterfaceController.swift in Sources */,
+				E2EBF6B41CCA36BD004D673E /* DetailController.swift in Sources */,
+				E2F683421CC60F950073F2D9 /* ColorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

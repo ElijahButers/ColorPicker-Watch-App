@@ -27,4 +27,18 @@ class InterfaceController: WKInterfaceController {
   @IBOutlet var colorGroup: WKInterfaceGroup!
   @IBOutlet var label: WKInterfaceLabel!
 
+    @IBAction func changeColors() {
+        
+        let colors = ColorManager.defaultManager.availableColors
+        let names: [String] = colors.map { c in "ColorPalette" }
+        presentControllerWithNames(names, contexts: colors)
+    }
+    
+    override func willActivate() {
+        super.willActivate()
+        
+        let color = ColorManager.defaultManager.selectedColor
+        colorGroup.setBackgroundColor(color)
+        label.setText("#" + color.hexString)
+    }
 }
