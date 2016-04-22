@@ -52,7 +52,21 @@
         <!--Detail Controller-->
         <scene sceneID="7FA-AG-Edp">
             <objects>
-                <controller id="WLD-rc-Gx2" customClass="DetailController" customModule="ColorPicker_WatchKit_Extension"/>
+                <controller id="WLD-rc-Gx2" customClass="DetailController" customModule="ColorPicker_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Hex" id="pwh-Hc-6Bg"/>
+                        <label alignment="left" text="Label" id="MFh-AK-FRf"/>
+                        <label width="39.5" alignment="left" text="RGB" id="f6S-B7-6k3"/>
+                        <label alignment="left" text="Label" id="0P8-5z-Fhe"/>
+                        <label alignment="left" text="HSL" id="5Xb-7N-Vqu"/>
+                        <label alignment="left" text="Label" id="yzE-Pp-otY"/>
+                    </items>
+                    <connections>
+                        <outlet property="hexLabel" destination="MFh-AK-FRf" id="eQF-TQ-yMm"/>
+                        <outlet property="hslLabel" destination="yzE-Pp-otY" id="F63-0a-IFz"/>
+                        <outlet property="rgbLabel" destination="0P8-5z-Fhe" id="Y9U-WY-qdh"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="742" y="387"/>
         </scene>

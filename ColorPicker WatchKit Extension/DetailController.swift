@@ -11,6 +11,10 @@ import Foundation
 
 
 class DetailController: WKInterfaceController {
+    
+    @IBOutlet var hexLabel: WKInterfaceLabel!
+    @IBOutlet var rgbLabel: WKInterfaceLabel!
+    @IBOutlet var hslLabel: WKInterfaceLabel!
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
