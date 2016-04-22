@@ -47,7 +47,14 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="610" y="393"/>
+            <point key="canvasLocation" x="541" y="387"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="7FA-AG-Edp">
+            <objects>
+                <controller id="WLD-rc-Gx2" customClass="DetailController" customModule="ColorPicker_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="742" y="387"/>
         </scene>
     </scenes>
 </document>
