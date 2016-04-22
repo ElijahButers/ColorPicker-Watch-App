@@ -25,6 +25,11 @@ class DetailController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        let color = ColorManager.defaultManager.selectedColor
+        hexLabel.setText("#" + color.hexString)
+        rgbLabel.setText(color.rgbString)
+        hslLabel.setText(color.hslString)
     }
 
     override func didDeactivate() {
